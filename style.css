@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+#page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 0.5rem;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    font-size: 4rem;
+    list-style: none;
+    margin-right:2rem;
+    margin-top:0.2rem;
+}
+
+nav li{
+    margin-left: 2rem;
+}
+#nav-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-right: 4rem;
+}
+
+#google-apps{
+    max-width: 1.7rem;
+    height: auto;
+    opacity: 0.5;
+}
+
+#google-apps:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#profile-picture{
+    border-radius: 50%;
+    margin-left: 2rem;
+    max-width: 3.3rem;
+}
+
+@media (max-width:380px)
+{
+    nav{
+        display: none;
+    }
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    margin-top: 10rem;
+}
+#logo{
+    display: block;
+    margin: 0 auto;
+}
+
+#search-bar{
+    margin:4rem auto 3rem auto;
+    max-width:60rem;
+    min-width: 38rem;
+    border:solid 0.1px rgb(173, 173, 173);
+    border-radius: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 1.4rem;
+}
+
+#search-bar:hover{
+    box-shadow: 0 3px 3px rgb(173, 173, 173);
+}
+
+#mic{
+    max-width: 3rem;
+    height: auto;
+}
+#search-icon{
+    max-width: 3rem;
+    max-height: 2rem;
+}
+#search-form{
+    width:86%;
+}
+#search-form:focus{
+    border:0;
+}
+#search-input{
+    width: 100%;
+    height: 3rem;
+    border:none;
+    font-size: 1.8rem;
+}
+#search-input:focus{
+    outline: none;
+}
+
+#buttons{
+    text-align: center;
+    min-width: 30rem;
+    margin-bottom: 3rem;
+}
+.btn{
+    width: 14rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    margin: 0 2rem;
+    border:none;
+    color: rgb(70, 70, 70);
+    background-color:#f8f9fa;
+    padding: 0.3rem 0.3rem;
+}
+.btn:hover{
+    border: solid 1px rgb(173, 173, 173);
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+}
+
+#lang-offer{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+#lang-offer a{
+    margin-left: 0.7rem;
+    text-decoration: none;
+    font-size: 1.6rem;
+}   
+
+#lang-offer a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    height: 100%;
+    display: flex;
+    bottom:0;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 5rem;
+    
+}
+
+#country{
+    padding: 1rem 0 1rem 2rem;
+    border-top:solid 1px rgb(196, 196, 196);
+    border-bottom:solid 1px rgb(196, 196, 196);
+    color:rgb(126, 126, 126);
+    background-color: #f2f2f2;
+}
+footer ul{
+    padding: 1rem 0 1rem 2rem;
+    display: flex;
+    list-style: none;
+    font-size: 4rem;
+}
+
+#foot{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.1rem;
+    background-color: #f2f2f2;
+}
+
+footer li{
+    padding-right: 3rem;
+}
+
+footer a{
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
